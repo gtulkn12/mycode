@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+
+
+# create the list called vendors
+stars = ["*", "* *", "* * *", "* * * *", "* * * * *", "* * * *", "* * *", "* *", "*" ]
+
+
+# loop across the list stars
+for x in stars:
+    print(x)  # each time through the loop print value of x
+print("\nOur loop has ended.")  # when the loop ends print this
+
+
+asterisk = '* '
+for i in range(10):
+	if i < 5:
+		print(asterisk * i)
+	else:
+		print(asterisk * (10 - i))
