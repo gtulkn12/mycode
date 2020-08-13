@@ -23,8 +23,8 @@ def doesnotmove():
         print(movesolution)
 
 def main():
-        if move == "Y":
-            moves()
-        else: doesnotmove()
+    if move == "Y":
+        moves()
+    else: doesnotmove()
 
 main()
